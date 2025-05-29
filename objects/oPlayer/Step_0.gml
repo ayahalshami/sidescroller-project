@@ -1,3 +1,5 @@
+
+
 //Get inputs
 rightKey = keyboard_check(vk_right);
 leftKey = keyboard_check(vk_left);
@@ -59,6 +61,7 @@ jumpKeyPressed = keyboard_check_pressed( vk_space );
 	
 	//Move
 	y += yspd;
+
 
 
 

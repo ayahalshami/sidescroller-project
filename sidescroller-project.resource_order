@@ -1,9 +1,11 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"oController","order":22,"path":"objects/oController/oController.yy",},
     {"name":"oPlayer","order":19,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"oWall","order":20,"path":"objects/oWall/oWall.yy",},
-    {"name":"Room1","order":16,"path":"rooms/Room1/Room1.yy",},
+    {"name":"rm_character_select","order":21,"path":"rooms/rm_character_select/rm_character_select.yy",},
+    {"name":"rm_game","order":16,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"sPlayer","order":17,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sWall","order":18,"path":"sprites/sWall/sWall.yy",},
   ],
