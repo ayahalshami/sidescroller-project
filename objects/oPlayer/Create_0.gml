@@ -7,7 +7,7 @@ yspd = 0;
 //Jumping
 grav = .275;
 termVel = 4;
-jspd = -4.15;
+jspd = -9.5;
 
 health = 100;
 max_health = 100;

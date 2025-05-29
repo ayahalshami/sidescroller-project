@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"tutorial_setup",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tutorial_setup",
+  "parent":{
+    "name":"sidescroller-project",
+    "path":"sidescroller-project.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

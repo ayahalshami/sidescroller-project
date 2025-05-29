@@ -1,0 +1,18 @@
+# GameMaker IDE temporary files
+.idea/
+.vs/
+*.yyp~ 
+*.yyz
+*.log
+*.tmp
+__GMSCache/
+*.gml.tmp
+*.gml.old
+*.gml~ 
+.DS_Store
+Thumbs.db
+
+# Compiled game outputs
+/build/
+/bin/
+/output/
