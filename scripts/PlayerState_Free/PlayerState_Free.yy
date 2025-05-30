@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"tutorial_setup",
+  "%Name":"PlayerState_Free",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"tutorial_setup",
+  "name":"PlayerState_Free",
   "parent":{
     "name":"scripts",
     "path":"folders/scripts.yy",

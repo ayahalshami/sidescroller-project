@@ -1,8 +1,3 @@
-//Get inputs
-rightKey = keyboard_check(vk_right);
-leftKey = keyboard_check(vk_left);
-jumpKeyPressed = keyboard_check_pressed( vk_space );
-
 // X Movement
 //Direction
 moveDir = rightKey - leftKey;
@@ -56,11 +51,9 @@ if place_meeting( x, y + yspd, oWall )
 //Move
 y += yspd;
 
+// Attack
 
-
-
-
-
+if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;
 
 
 
