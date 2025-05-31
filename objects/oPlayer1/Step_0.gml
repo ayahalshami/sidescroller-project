@@ -1,7 +1,8 @@
 //Get inputs
-rightKey = keyboard_check(vk_right);
-leftKey = keyboard_check(vk_left);
+rightKey = keyboard_check(vk_right) | keyboard_check(ord("D"));
+leftKey = keyboard_check(vk_left)| keyboard_check(ord("W"));
 jumpKeyPressed = keyboard_check_pressed( vk_space );
+
 
 
 // X Movement
