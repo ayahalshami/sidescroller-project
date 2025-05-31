@@ -4,6 +4,7 @@ moveSpd = 4;
 xspd = 0;
 yspd = 0;
 
+
 //Jumping
 grav = .375;
 termVel = 4;
@@ -14,13 +15,4 @@ max_health = 100;
 
 global.paused = false;
 
-// Attacks
-state = PLAYERSTATE.FREE;
-hitByAttack = ds_list_create();
 
-
-enum PLAYERSTATE
-{
-	FREE,
-	ATTACK_SLASH,
-}

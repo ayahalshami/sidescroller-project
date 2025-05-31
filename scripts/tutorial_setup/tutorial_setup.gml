@@ -37,6 +37,6 @@ instance_create_layer(38 * 32, 368, "Instances", oExit);
 
 // === PLAYER SPAWN ===
 // Spawn player on left side of main floor
-instance_create_layer(3 * 32, 368, "Instances", oPlayer1);
+instance_create_layer(3 * 32, 368, "Instances", oPlayerKnight);
 
 }

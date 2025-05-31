@@ -1,12 +1,13 @@
 //Get inputs
 rightKey = keyboard_check(vk_right) | keyboard_check(ord("D"));
-leftKey = keyboard_check(vk_left)| keyboard_check(ord("W"));
+leftKey = keyboard_check(vk_left)| keyboard_check(ord("A"));
 jumpKeyPressed = keyboard_check_pressed( vk_space );
-
+attackKey = keyboard_check(ord("H"))
 
 
 // X Movement
 //Direction
+
 moveDir = rightKey - leftKey;
 //Get xspd
 xspd = moveDir * moveSpd;
@@ -58,8 +59,6 @@ if place_meeting( x, y + yspd, oWall )
 
 //Move
 y += yspd;
-
-
 
 
 
