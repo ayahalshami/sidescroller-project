@@ -10,8 +10,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"players",
+    "path":"folders/objects/characters/players.yy",
   },
   "parentObjectId":null,
   "persistent":false,

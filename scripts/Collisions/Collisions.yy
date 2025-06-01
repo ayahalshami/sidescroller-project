@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"tutorial_setup",
+  "%Name":"Collisions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"tutorial_setup",
+  "name":"Collisions",
   "parent":{
     "name":"scripts",
     "path":"folders/scripts.yy",
