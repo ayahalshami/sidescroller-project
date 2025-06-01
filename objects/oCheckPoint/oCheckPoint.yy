@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oWall",
-  "eventList":[],
+  "%Name":"oCheckPoint",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oWall",
+  "name":"oCheckPoint",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -28,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite11",
-    "path":"sprites/Sprite11/Sprite11.yy",
+    "name":"sCheckPoint",
+    "path":"sprites/sCheckPoint/sCheckPoint.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
