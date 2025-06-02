@@ -8,3 +8,12 @@ firingdelay = 0;
 
 respawn_x = x;
 respawn_y = y;
+
+
+// Store starting position for respawn
+start_x = x;
+start_y = y;
+
+// Life system setup
+lives = 3;
+max_lives = 3;

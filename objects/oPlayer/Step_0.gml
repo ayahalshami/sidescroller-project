@@ -96,8 +96,11 @@ if (keyboard_check(ord("K")) && firingdelay < 0 && onGround) {
 }
 
 
-
-
-
-
-
+// If player touches water, lose a life
+if (place_meeting(x, y, oDeathBlock)) {
+    if (lives > 0) {
+        lives -= 1;
+        x = start_x;
+        y = start_y;
+    }
+}

@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer",
+  "%Name":"Obj_Warrior",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayer",
+  "name":"Obj_Warrior",
   "overriddenProperties":[],
   "parent":{
-    "name":"players",
-    "path":"folders/objects/characters/players.yy",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,12 +32,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sWarrior",
+    "path":"sprites/sWarrior/sWarrior.yy",
   },
-  "spriteMaskId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
