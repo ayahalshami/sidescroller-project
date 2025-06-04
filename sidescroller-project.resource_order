@@ -25,6 +25,8 @@
     {"name":"rm_game","order":16,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"rm_tutorial","order":32,"path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"Collisions","order":1,"path":"scripts/Collisions/Collisions.yy",},
+    {"name":"CAVE","order":12,"path":"sprites/CAVE/CAVE.yy",},
+    {"name":"cave2","order":13,"path":"sprites/cave2/cave2.yy",},
     {"name":"sblackheart","order":8,"path":"sprites/sblackheart/sblackheart.yy",},
     {"name":"sButton","order":10,"path":"sprites/sButton/sButton.yy",},
     {"name":"sCheckPoint","order":6,"path":"sprites/sCheckPoint/sCheckPoint.yy",},
@@ -39,6 +41,8 @@
     {"name":"Sprite11","order":4,"path":"sprites/Sprite11/Sprite11.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"sWarrior","order":9,"path":"sprites/sWarrior/sWarrior.yy",},
+    {"name":"TileSet_cave","order":39,"path":"tilesets/TileSet_cave/TileSet_cave.yy",},
+    {"name":"TileSet_cave2","order":40,"path":"tilesets/TileSet_cave2/TileSet_cave2.yy",},
     {"name":"TileSet1","order":38,"path":"tilesets/TileSet1/TileSet1.yy",},
   ],
 }
