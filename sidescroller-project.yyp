@@ -36,6 +36,7 @@
     {"id":{"name":"OCharselect_controller","path":"objects/OCharselect_controller/OCharselect_controller.yy",},},
     {"id":{"name":"oCheckPoint","path":"objects/oCheckPoint/oCheckPoint.yy",},},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},},
+    {"id":{"name":"oDeathBlock_1","path":"objects/oDeathBlock_1/oDeathBlock_1.yy",},},
     {"id":{"name":"oDeathBlock","path":"objects/oDeathBlock/oDeathBlock.yy",},},
     {"id":{"name":"oMagic","path":"objects/oMagic/oMagic.yy",},},
     {"id":{"name":"oParentEnemy","path":"objects/oParentEnemy/oParentEnemy.yy",},},

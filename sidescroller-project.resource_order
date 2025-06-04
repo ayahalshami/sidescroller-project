@@ -17,6 +17,7 @@
     {"name":"Obj_Warrior","order":8,"path":"objects/Obj_Warrior/Obj_Warrior.yy",},
     {"name":"OCharselect_controller","order":1,"path":"objects/OCharselect_controller/OCharselect_controller.yy",},
     {"name":"oCheckPoint","order":3,"path":"objects/oCheckPoint/oCheckPoint.yy",},
+    {"name":"oDeathBlock_1","order":9,"path":"objects/oDeathBlock_1/oDeathBlock_1.yy",},
     {"name":"oDeathBlock","order":2,"path":"objects/oDeathBlock/oDeathBlock.yy",},
     {"name":"oMagic","order":1,"path":"objects/oMagic/oMagic.yy",},
     {"name":"oSlimeDefeated","order":2,"path":"objects/oSlimeDefeated/oSlimeDefeated.yy",},
