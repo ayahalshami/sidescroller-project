@@ -6,13 +6,13 @@ firingdelay = 0;
 
 // respawn for checkpoint
 
-respawn_x = x;
-respawn_y = y;
+if (!variable_global_exists("respawn_x")) {
+    global.respawn_x = x;
+    global.respawn_y = y;
+}
+start_x = pointer_null;
+start_y = pointer_null;
 
-
-// Store starting position for respawn
-start_x = x;
-start_y = y;
 
 // Life system setup
 lives = 3;
