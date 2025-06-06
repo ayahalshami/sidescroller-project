@@ -31,6 +31,7 @@
     {"name":"sblackheart","order":8,"path":"sprites/sblackheart/sblackheart.yy",},
     {"name":"sButton","order":10,"path":"sprites/sButton/sButton.yy",},
     {"name":"sCheckPoint","order":6,"path":"sprites/sCheckPoint/sCheckPoint.yy",},
+    {"name":"sDeathBlock_1","order":14,"path":"sprites/sDeathBlock_1/sDeathBlock_1.yy",},
     {"name":"sDeathBlock","order":5,"path":"sprites/sDeathBlock/sDeathBlock.yy",},
     {"name":"SlimeDefeat","order":1,"path":"sprites/SlimeDefeat/SlimeDefeat.yy",},
     {"name":"sMage","order":11,"path":"sprites/sMage/sMage.yy",},

@@ -54,6 +54,7 @@
     {"id":{"name":"sblackheart","path":"sprites/sblackheart/sblackheart.yy",},},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
     {"id":{"name":"sCheckPoint","path":"sprites/sCheckPoint/sCheckPoint.yy",},},
+    {"id":{"name":"sDeathBlock_1","path":"sprites/sDeathBlock_1/sDeathBlock_1.yy",},},
     {"id":{"name":"sDeathBlock","path":"sprites/sDeathBlock/sDeathBlock.yy",},},
     {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},},
     {"id":{"name":"Slime","path":"sprites/Slime/Slime.yy",},},
