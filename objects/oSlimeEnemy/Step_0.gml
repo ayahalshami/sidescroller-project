@@ -2,7 +2,7 @@ event_inherited();
 
 
 // find player
-var _player = instance_nearest(x, y, oPlayer);
+var _player = instance_nearest(x, y, oMage);
 
 if (_player != noone)
 {

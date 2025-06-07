@@ -19,6 +19,7 @@
     {"name":"oCheckPoint","order":3,"path":"objects/oCheckPoint/oCheckPoint.yy",},
     {"name":"oDeathBlock_1","order":9,"path":"objects/oDeathBlock_1/oDeathBlock_1.yy",},
     {"name":"oDeathBlock","order":2,"path":"objects/oDeathBlock/oDeathBlock.yy",},
+    {"name":"oKnight","order":1,"path":"objects/oKnight/oKnight.yy",},
     {"name":"oMagic","order":1,"path":"objects/oMagic/oMagic.yy",},
     {"name":"oSlimeDefeated","order":2,"path":"objects/oSlimeDefeated/oSlimeDefeated.yy",},
     {"name":"oSlimeEnemy","order":1,"path":"objects/oSlimeEnemy/oSlimeEnemy.yy",},

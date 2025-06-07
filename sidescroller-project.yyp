@@ -26,7 +26,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"sidescroller-project",
   "resources":[
@@ -38,9 +38,10 @@
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},},
     {"id":{"name":"oDeathBlock_1","path":"objects/oDeathBlock_1/oDeathBlock_1.yy",},},
     {"id":{"name":"oDeathBlock","path":"objects/oDeathBlock/oDeathBlock.yy",},},
+    {"id":{"name":"oKnight","path":"objects/oKnight/oKnight.yy",},},
+    {"id":{"name":"oMage","path":"objects/oMage/oMage.yy",},},
     {"id":{"name":"oMagic","path":"objects/oMagic/oMagic.yy",},},
     {"id":{"name":"oParentEnemy","path":"objects/oParentEnemy/oParentEnemy.yy",},},
-    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSlimeDefeated","path":"objects/oSlimeDefeated/oSlimeDefeated.yy",},},
     {"id":{"name":"oSlimeEnemy","path":"objects/oSlimeEnemy/oSlimeEnemy.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
