@@ -33,12 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWarrior",
-    "path":"sprites/sWarrior/sWarrior.yy",
+    "name":"warrioridle",
+    "path":"sprites/warrioridle/warrioridle.yy",
   },
   "spriteMaskId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sMageI",
+    "path":"sprites/sMageI/sMageI.yy",
   },
   "visible":true,
 }

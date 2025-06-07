@@ -33,12 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sMageI",
+    "path":"sprites/sMageI/sMageI.yy",
   },
   "spriteMaskId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sMageI",
+    "path":"sprites/sMageI/sMageI.yy",
   },
   "visible":true,
 }

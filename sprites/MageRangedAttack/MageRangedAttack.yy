@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"players",
-    "path":"folders/sprites/characters/players.yy",
+    "name":"Mage",
+    "path":"folders/sprites/characters/players/Mage.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
