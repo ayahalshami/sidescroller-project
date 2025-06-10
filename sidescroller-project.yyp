@@ -46,6 +46,8 @@
     {"id":{"name":"oMage","path":"objects/oMage/oMage.yy",},},
     {"id":{"name":"oMagic","path":"objects/oMagic/oMagic.yy",},},
     {"id":{"name":"oParentEnemy","path":"objects/oParentEnemy/oParentEnemy.yy",},},
+    {"id":{"name":"oPlatformMoving","path":"objects/oPlatformMoving/oPlatformMoving.yy",},},
+    {"id":{"name":"oPlatformPoint","path":"objects/oPlatformPoint/oPlatformPoint.yy",},},
     {"id":{"name":"oSlimeDefeated","path":"objects/oSlimeDefeated/oSlimeDefeated.yy",},},
     {"id":{"name":"oSlimeEnemy","path":"objects/oSlimeEnemy/oSlimeEnemy.yy",},},
     {"id":{"name":"oSwordAttack","path":"objects/oSwordAttack/oSwordAttack.yy",},},
@@ -70,6 +72,8 @@
     {"id":{"name":"sMageI","path":"sprites/sMageI/sMageI.yy",},},
     {"id":{"name":"sMageR","path":"sprites/sMageR/sMageR.yy",},},
     {"id":{"name":"sMagic","path":"sprites/sMagic/sMagic.yy",},},
+    {"id":{"name":"sPlatformMoving","path":"sprites/sPlatformMoving/sPlatformMoving.yy",},},
+    {"id":{"name":"sPlatformPoint","path":"sprites/sPlatformPoint/sPlatformPoint.yy",},},
     {"id":{"name":"spr_ground_alpine","path":"sprites/spr_ground_alpine/spr_ground_alpine.yy",},},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
@@ -86,9 +90,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_charselect","path":"rooms/rm_charselect/rm_charselect.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
+    {"roomId":{"name":"rm_charselect","path":"rooms/rm_charselect/rm_charselect.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
