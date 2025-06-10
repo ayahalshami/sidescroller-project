@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oSlimeDefeated",
+  "%Name":"oSwordAttack",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oParentEnemy","path":"objects/oParentEnemy/oParentEnemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSlimeDefeated",
+  "name":"oSwordAttack",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemies",
-    "path":"folders/objects/characters/enemies.yy",
+    "name":"attacks",
+    "path":"folders/objects/attacks.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SlimeDefeat",
-    "path":"sprites/SlimeDefeat/SlimeDefeat.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

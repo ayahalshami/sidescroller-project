@@ -57,7 +57,7 @@ if (hsp != 0) image_xscale = sign(hsp);
 firingdelay -= 1;
 
 if (keyboard_check(ord("K"))) {
-    sprite_index = warriorMelee; // Your melee attack animation
+    sprite_index = warriorMelee; // melee attack animation
 }
 
 var onGround = place_meeting(x, y + 1, oWall); // Ground check
@@ -70,6 +70,12 @@ if (keyboard_check(ord("K")) && firingdelay < 0 && onGround) {
     // Start animation from beginning
     image_index = 0;
     image_speed = 1;
+	
+	//spawns hitbox for melee attack
+	 var xOffset = 16 * attack_dir;
+    with (instance_create_layer(x + xOffset, y, "Instances", oSwordAttack)) {
+        image_xscale = attack_dir;
+    }
 }
 
 // If player touches water, lose a life
@@ -81,3 +87,26 @@ if (place_meeting(x, y, oDeathBlock)) {
     }
 }
 
+// invincibility countdown
+if (invincible) {
+    invincible_timer -= 1;
+    if (invincible_timer <= 0) {
+        invincible = false;
+    }
+}
+
+// damage check
+if (!invincible) {
+    var enemy = instance_place(x, y, oParentEnemy);
+    if (enemy != noone) {
+        lives -= 1;
+        invincible = true;
+        invincible_timer = 60; // 1 second invincibility
+
+        // knockback
+        var dir = (x < enemy.x) ? -1 : 1;
+        hsp = dir * -4;
+        vsp = -4;
+
+    }
+}

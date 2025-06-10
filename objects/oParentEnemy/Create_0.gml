@@ -8,6 +8,9 @@ vel_x = 0;
 vel_y = 0;
 grav_speed = 0.5;
 
+// default enemy HP
+hp = 2;
+
 // makes enemy move back and forth
 vel_x = choose(-move_speed, move_speed);
 

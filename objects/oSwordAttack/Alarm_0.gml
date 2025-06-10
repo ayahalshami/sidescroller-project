@@ -1,0 +1,1 @@
+instance_destroy(); // Delete hitbox after brief time

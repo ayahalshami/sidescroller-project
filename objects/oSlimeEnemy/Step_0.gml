@@ -1,9 +1,8 @@
 event_inherited();
-
+defeated_object = oSlimeDefeated; 
 
 // find player
 var _player = instance_nearest(x, y, oMage);
-
 if (_player != noone)
 {
     var _dist = point_distance(x, y, _player.x, _player.y);
@@ -44,4 +43,10 @@ else
     {
         vel_x = -move_speed;
     }
+}
+
+// check if defeated:
+if (hp <= 0) {
+    instance_create_layer(x, y, layer, defeated_object);
+    instance_destroy();
 }

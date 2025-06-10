@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"sidescroller-project",
-    "path":"sidescroller-project.yyp",
+    "name":"tiles",
+    "path":"folders/sprites/tiles.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
