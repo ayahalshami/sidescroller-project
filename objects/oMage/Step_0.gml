@@ -28,7 +28,7 @@ if (place_meeting(x + hsp, y, oWall)) {
 }
 x += hsp;
 
-// --- Moving Platform Collision ---
+// --- Moving Platform Collision --
 var _movingPlatform = instance_place(x, y + max(1, vsp), oPlatformMoving);
 if (_movingPlatform && vsp >= 0 && bbox_bottom <= _movingPlatform.bbox_top + 1) {
     // Pixel-perfect collision fix
