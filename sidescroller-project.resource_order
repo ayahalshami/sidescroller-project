@@ -51,6 +51,7 @@
     {"name":"sPlatformPoint","order":16,"path":"sprites/sPlatformPoint/sPlatformPoint.yy",},
     {"name":"spr_ground_alpine","order":2,"path":"sprites/spr_ground_alpine/spr_ground_alpine.yy",},
     {"name":"Sprite11","order":4,"path":"sprites/Sprite11/Sprite11.yy",},
+    {"name":"Sprite30","order":10,"path":"sprites/Sprite30/Sprite30.yy",},
     {"name":"sShootingEnemy","order":2,"path":"sprites/sShootingEnemy/sShootingEnemy.yy",},
     {"name":"sWall","order":3,"path":"sprites/sWall/sWall.yy",},
     {"name":"sWarrior","order":8,"path":"sprites/sWarrior/sWarrior.yy",},
@@ -61,5 +62,6 @@
     {"name":"TileSet_cave","order":7,"path":"tilesets/TileSet_cave/TileSet_cave.yy",},
     {"name":"TileSet_cave2","order":8,"path":"tilesets/TileSet_cave2/TileSet_cave2.yy",},
     {"name":"TileSet1","order":9,"path":"tilesets/TileSet1/TileSet1.yy",},
+    {"name":"TileSet4","order":11,"path":"tilesets/TileSet4/TileSet4.yy",},
   ],
 }
