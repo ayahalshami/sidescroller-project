@@ -14,29 +14,27 @@ start_y = pointer_null;
 lives = 3;
 max_lives = 3;
 
-// Invincibility system (for oKnight)
+// invincibility timer
 invincible = false;
 invincible_timer = 0;
 
-// Respawn checkpoint (for oMage)
+// respawn
 if (!variable_global_exists("respawn_x")) {
     global.respawn_x = x;
     global.respawn_y = y;
 }
 
+// functions to be overriden by children
+
 function HandleMovementAnimation() {
-    // Default basic animation - child objects should override
     if (hsp != 0) image_xscale = sign(hsp);
 }
 
 function HandleAttackAnimation() {
-    // Child objects will override this with their specific attack sprites
 }
 
 function HandleAttack() {
-    // Child objects will override this with their specific attack logic
 }
 
 function HandleDamage() {
-    // Default no damage system - child objects can override
 }

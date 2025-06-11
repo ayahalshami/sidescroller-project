@@ -51,7 +51,7 @@
     {"name":"sPlatformPoint","order":16,"path":"sprites/sPlatformPoint/sPlatformPoint.yy",},
     {"name":"spr_ground_alpine","order":2,"path":"sprites/spr_ground_alpine/spr_ground_alpine.yy",},
     {"name":"Sprite11","order":4,"path":"sprites/Sprite11/Sprite11.yy",},
-    {"name":"sShootingEnemy","order":7,"path":"sprites/sShootingEnemy/sShootingEnemy.yy",},
+    {"name":"sShootingEnemy","order":2,"path":"sprites/sShootingEnemy/sShootingEnemy.yy",},
     {"name":"sWall","order":3,"path":"sprites/sWall/sWall.yy",},
     {"name":"sWarrior","order":8,"path":"sprites/sWarrior/sWarrior.yy",},
     {"name":"warrioridle","order":4,"path":"sprites/warrioridle/warrioridle.yy",},

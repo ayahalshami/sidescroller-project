@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"sidescroller-project",
-    "path":"sidescroller-project.yyp",
+    "name":"enemies",
+    "path":"folders/sprites/characters/enemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,8 +1,8 @@
 event_inherited();
 
-// Override functions with mage-specific behavior
+// override functions
 function HandleMovementAnimation() {
-    // Animation Handling (platform collision now handled in parent)
+    // platform collision 
     if (!place_meeting(x, y + 1, oWall) && !place_meeting(x, y + 1, oPlatformMoving)) {
         sprite_index = sMageA;
         image_speed = 0;

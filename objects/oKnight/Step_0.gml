@@ -1,8 +1,8 @@
 event_inherited();
 
-// Override functions with knight-specific behavior
+// override functions 
 function HandleMovementAnimation() {
-    // Animation (now includes platform collision)
+    // Animation 
     if (!place_meeting(x, y + 1, oWall) && !place_meeting(x, y + 1, oPlatformMoving)) { 
         sprite_index = WarriorJump2; 
         image_speed = 0;
@@ -24,16 +24,18 @@ function HandleAttackAnimation() {
 
 function HandleAttack() {
     var attack_dir = image_xscale; // +1 = right, -1 = left
-    // Start animation from beginning
+    // start  animation from beginning
     image_index = 0;
     image_speed = 1;
     
-    // Spawns hitbox for melee attack
+    // spawns  hitbox for melee attack
     var xOffset = 16 * attack_dir;
     with (instance_create_layer(x + xOffset, y, "Instances", oSwordAttack)) {
         image_xscale = attack_dir;
     }
 }
+// note to self later i think this needs to be in the parent class but i forgot to add it and i need to leave
+// -ash
 
 function HandleDamage() {
     // damage check with invincibility system
