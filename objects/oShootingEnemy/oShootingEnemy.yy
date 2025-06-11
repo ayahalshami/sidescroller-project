@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oMage",
+  "%Name":"oShootingEnemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oMage",
+  "name":"oShootingEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"players",
-    "path":"folders/objects/characters/players.yy",
+    "name":"enemies",
+    "path":"folders/objects/characters/enemies.yy",
   },
   "parentObjectId":{
-    "name":"oParentCharacter",
-    "path":"objects/oParentCharacter/oParentCharacter.yy",
+    "name":"oParentEnemy",
+    "path":"objects/oParentEnemy/oParentEnemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,12 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMageI",
-    "path":"sprites/sMageI/sMageI.yy",
+    "name":"sShootingEnemy",
+    "path":"sprites/sShootingEnemy/sShootingEnemy.yy",
   },
-  "spriteMaskId":{
-    "name":"sMageI",
-    "path":"sprites/sMageI/sMageI.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

@@ -2,7 +2,7 @@ event_inherited();
 defeated_object = oSlimeDefeated; 
 
 // find player
-var _player = instance_nearest(x, y, oMage);
+var _player = instance_nearest(x, y, oParentCharacter);
 if (_player != noone)
 {
     var _dist = point_distance(x, y, _player.x, _player.y);
