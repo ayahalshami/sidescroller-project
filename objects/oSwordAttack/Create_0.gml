@@ -1,2 +1,1 @@
-// oSwordHitbox Create Event
-alarm[0] = 5; // Exists for 5 steps (frames)
+alarm[0] = 10; // exists for 10 frames

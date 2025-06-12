@@ -23,6 +23,6 @@ if (hovered && mouse_check_button_pressed(mb_left)) {
         }
         
         // Move to the main game room
-        room_goto(rm_game); // replace 'rm_game' with your actual room name
+        room_goto(rm_game); 
     }
 }

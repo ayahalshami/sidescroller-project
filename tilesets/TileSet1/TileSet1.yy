@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"tiles",
-    "path":"folders/sprites/tiles.yy",
+    "name":"zone 1",
+    "path":"folders/assets/tiles/zone 1.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

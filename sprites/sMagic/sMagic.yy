@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"sprites",
-    "path":"folders/sprites.yy",
+    "name":"attacks",
+    "path":"folders/assets/attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

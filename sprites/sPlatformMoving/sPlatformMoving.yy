@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"sprites",
-    "path":"folders/sprites.yy",
+    "name":"tiles",
+    "path":"folders/assets/tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -6,7 +6,13 @@ if (global.paused) {
 event_inherited();
 
 // override functions 
+
 function HandleMovementAnimation() {
+    // Don't override sprite if we're currently attacking
+    if (firingdelay > 0) {
+        return;
+    }
+    
     // Animation 
     if (!place_meeting(x, y + 1, oWall) && !place_meeting(x, y + 1, oPlatformMoving)) { 
         sprite_index = WarriorJump2; 
@@ -29,13 +35,14 @@ function HandleAttackAnimation() {
 
 function HandleAttack() {
     var attack_dir = image_xscale; // +1 = right, -1 = left
-    // start  animation from beginning
+    // start animation from beginning
     image_index = 0;
     image_speed = 1;
     
-    // spawns  hitbox for melee attack
-    var xOffset = 16 * attack_dir;
-    with (instance_create_layer(x + xOffset, y, "Instances", oSwordAttack)) {
+    // spawns hitbox for melee attack
+    var xOffset = 24 * attack_dir; 
+    var yOffset = -16; // moves hitbox up as it was previously in the ground
+    with (instance_create_layer(x + xOffset, y + yOffset, "Instances", oSwordAttack)) {
         image_xscale = attack_dir;
     }
 }

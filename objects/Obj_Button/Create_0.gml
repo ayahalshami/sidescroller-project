@@ -1,4 +1,4 @@
-// Button dimensions (adjust to fit your layout)
+// Button dimensions 
 btn_width = 120;
 btn_height = 40;
 

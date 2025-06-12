@@ -52,7 +52,7 @@ y += vsp;
 // Attack input handling
 firingdelay -= 1;
 if (keyboard_check(ord("K"))) {
-    // Child objects will override this for their specific attack sprites
+    // child objects will override this for their specific attack sprites
     HandleAttackAnimation();
 }
 
@@ -71,7 +71,7 @@ if (place_meeting(x, y, oDeathBlock)) {
     }
 }
 
-// Invincibility countdown (mainly for knight)
+// Invincibility countdown
 if (invincible) {
     invincible_timer -= 1;
     if (invincible_timer <= 0) {

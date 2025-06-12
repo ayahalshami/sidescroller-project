@@ -11,8 +11,8 @@
   "name":"oPlatformMoving",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"tiles",
+    "path":"folders/objects/tiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

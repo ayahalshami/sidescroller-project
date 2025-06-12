@@ -7,6 +7,11 @@ event_inherited();
 
 // override functions
 function HandleMovementAnimation() {
+    // don't override sprite if we're currently attacking
+    if (firingdelay > 0) {
+        return;
+    }
+    
     // platform collision 
     if (!place_meeting(x, y + 1, oWall) && !place_meeting(x, y + 1, oPlatformMoving)) {
         sprite_index = sMageA;
@@ -22,6 +27,7 @@ function HandleMovementAnimation() {
     }
     if (hsp != 0) image_xscale = sign(hsp);
 }
+
 
 function HandleAttackAnimation() {
     sprite_index = MageRangedAttack;

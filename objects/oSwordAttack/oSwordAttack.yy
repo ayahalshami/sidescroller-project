@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"oSwordAttackTestTOBEDELETED",
+    "path":"sprites/oSwordAttackTestTOBEDELETED/oSwordAttackTestTOBEDELETED.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

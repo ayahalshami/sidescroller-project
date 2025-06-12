@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"tiles",
-    "path":"folders/sprites/tiles.yy",
+    "path":"folders/assets/tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

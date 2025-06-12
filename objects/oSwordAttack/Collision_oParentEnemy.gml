@@ -1,10 +1,7 @@
-// hits enemy object
+// collision w enemy
 with (other) {
     if (variable_instance_exists(id, "hp")) {
         hp -= 1;
-        if (hp <= 0) {
-            instance_create_layer(x, y, layer, defeated_object);
-            instance_destroy();
-        }
     }
 }
+instance_destroy(); // destroy hitbox after hitting

@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oEnemyArrow",
+  "%Name":"oShootingEnemyDefeated",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEnemyArrow",
+  "name":"oShootingEnemyDefeated",
   "overriddenProperties":[],
   "parent":{
-    "name":"attacks",
-    "path":"folders/objects/attacks.yy",
+    "name":"enemies",
+    "path":"folders/objects/characters/enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEnemyArrow",
-    "path":"sprites/sEnemyArrow/sEnemyArrow.yy",
+    "name":"Sprite33",
+    "path":"sprites/Sprite33/Sprite33.yy",
   },
   "spriteMaskId":null,
   "visible":true,

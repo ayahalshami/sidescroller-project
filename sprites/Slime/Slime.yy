@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"enemies",
-    "path":"folders/sprites/characters/enemies.yy",
+    "path":"folders/assets/characters/enemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

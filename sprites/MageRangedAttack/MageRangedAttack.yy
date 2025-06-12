@@ -35,7 +35,7 @@
   "origin":4,
   "parent":{
     "name":"Mage",
-    "path":"folders/sprites/characters/players/Mage.yy",
+    "path":"folders/assets/characters/players/Mage.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

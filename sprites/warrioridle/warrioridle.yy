@@ -37,7 +37,7 @@
   "origin":4,
   "parent":{
     "name":"Warrior",
-    "path":"folders/sprites/characters/players/Warrior.yy",
+    "path":"folders/assets/characters/players/Warrior.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

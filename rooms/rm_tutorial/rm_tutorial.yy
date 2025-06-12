@@ -43,8 +43,8 @@
   ],
   "name":"rm_tutorial",
   "parent":{
-    "name":"sidescroller-project",
-    "path":"sidescroller-project.yyp",
+    "name":"rooms",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

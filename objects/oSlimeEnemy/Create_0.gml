@@ -1,6 +1,6 @@
-event_inherited(); // Runs the parent version of the event
+event_inherited(); 
 
-// This is the object that replaces the enemy once it is defeated.
+// replaces sprite wen defeated
 defeated_object = oSlimeDefeated;
 
 // special behavior for enemy: will walk at player when detected
