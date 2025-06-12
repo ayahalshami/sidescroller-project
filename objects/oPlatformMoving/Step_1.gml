@@ -1,3 +1,6 @@
+if (global.paused) exit;
+
+
 // begining movement
 var _targetX = endX, _targetY = endY;
 if (goingToStart) {

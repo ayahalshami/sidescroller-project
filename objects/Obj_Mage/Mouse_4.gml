@@ -1,1 +1,1 @@
-global.playerChoice = my_choice;
+global.playerChoice = 2;

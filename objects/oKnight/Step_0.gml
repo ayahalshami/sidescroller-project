@@ -1,3 +1,8 @@
+if (global.paused) {
+    exit;
+}
+
+
 event_inherited();
 
 // override functions 
@@ -52,3 +57,4 @@ function HandleDamage() {
         }
     }
 }
+

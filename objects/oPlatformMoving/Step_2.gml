@@ -1,4 +1,7 @@
 
+if (global.paused) exit;
+
+
 x += hsp;
 y += vsp;
 
