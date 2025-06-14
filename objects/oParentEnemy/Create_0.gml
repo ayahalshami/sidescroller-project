@@ -19,3 +19,5 @@ patrol_range = 64;       // Enemy will move 64 pixels left and right
 
 
 friction_power = 0;
+
+grounded = false;

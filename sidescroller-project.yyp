@@ -43,7 +43,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"sidescroller-project",
   "resources":[
@@ -70,6 +70,7 @@
     {"id":{"name":"oShootingEnemyDefeated","path":"objects/oShootingEnemyDefeated/oShootingEnemyDefeated.yy",},},
     {"id":{"name":"oSlimeDefeated","path":"objects/oSlimeDefeated/oSlimeDefeated.yy",},},
     {"id":{"name":"oSlimeEnemy","path":"objects/oSlimeEnemy/oSlimeEnemy.yy",},},
+    {"id":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},},
     {"id":{"name":"oSwordAttack","path":"objects/oSwordAttack/oSwordAttack.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"rm_charselect","path":"rooms/rm_charselect/rm_charselect.yy",},},
@@ -119,6 +120,7 @@
     {"id":{"name":"sShootingEnemy","path":"sprites/sShootingEnemy/sShootingEnemy.yy",},},
     {"id":{"name":"sStillBottomWater","path":"sprites/sStillBottomWater/sStillBottomWater.yy",},},
     {"id":{"name":"sStillWaterBlock","path":"sprites/sStillWaterBlock/sStillWaterBlock.yy",},},
+    {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"sWarrior","path":"sprites/sWarrior/sWarrior.yy",},},
     {"id":{"name":"sWaterBlock","path":"sprites/sWaterBlock/sWaterBlock.yy",},},
