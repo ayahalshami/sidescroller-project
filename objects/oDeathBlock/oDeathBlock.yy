@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDeathBlock",
-    "path":"sprites/sDeathBlock/sDeathBlock.yy",
+    "name":"sWaterBlock",
+    "path":"sprites/sWaterBlock/sWaterBlock.yy",
   },
   "spriteMaskId":null,
   "visible":true,
