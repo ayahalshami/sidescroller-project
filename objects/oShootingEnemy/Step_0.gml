@@ -1,3 +1,5 @@
+if (global.paused) exit;
+
 event_inherited();
 defeated_object = oShootingEnemyDefeated; 
 patrol_range = 150; 

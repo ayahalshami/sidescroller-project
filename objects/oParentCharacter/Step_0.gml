@@ -84,3 +84,13 @@ HandleMovementAnimation();
 
 // Handle damage - child objects can override for different damage systems
 HandleDamage();
+
+// If lives hit 0, respawn at last checkpoint
+if (lives <= 0) {
+    // Move to last saved checkpoint
+    x = respawn_x;
+    y = respawn_y;
+
+    // Refill hearts
+    lives = max_lives;
+}

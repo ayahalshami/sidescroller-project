@@ -19,10 +19,8 @@ invincible = false;
 invincible_timer = 0;
 
 // respawn
-if (!variable_global_exists("respawn_x")) {
-    global.respawn_x = x;
-    global.respawn_y = y;
-}
+respawn_x = x;
+respawn_y = y;
 
 // functions to be overriden by children
 

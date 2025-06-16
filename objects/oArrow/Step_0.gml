@@ -1,3 +1,5 @@
+if (global.paused) exit;
+
 // move the arrow horiaontally
 x += hsp;
 

@@ -43,7 +43,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"sidescroller-project",
   "resources":[
@@ -53,6 +53,7 @@
     {"id":{"name":"Obj_Button","path":"objects/Obj_Button/Obj_Button.yy",},},
     {"id":{"name":"Obj_Mage","path":"objects/Obj_Mage/Obj_Mage.yy",},},
     {"id":{"name":"Obj_Warrior","path":"objects/Obj_Warrior/Obj_Warrior.yy",},},
+    {"id":{"name":"Object25","path":"objects/Object25/Object25.yy",},},
     {"id":{"name":"OCharselect_controller","path":"objects/OCharselect_controller/OCharselect_controller.yy",},},
     {"id":{"name":"oCheckPoint","path":"objects/oCheckPoint/oCheckPoint.yy",},},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},},

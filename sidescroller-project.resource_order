@@ -31,6 +31,7 @@
     {"name":"oArrow","order":2,"path":"objects/oArrow/oArrow.yy",},
     {"name":"Obj_Mage","order":1,"path":"objects/Obj_Mage/Obj_Mage.yy",},
     {"name":"Obj_Warrior","order":2,"path":"objects/Obj_Warrior/Obj_Warrior.yy",},
+    {"name":"Object25","order":2,"path":"objects/Object25/Object25.yy",},
     {"name":"OCharselect_controller","order":1,"path":"objects/OCharselect_controller/OCharselect_controller.yy",},
     {"name":"oCheckPoint","order":3,"path":"objects/oCheckPoint/oCheckPoint.yy",},
     {"name":"oCoin","order":6,"path":"objects/oCoin/oCoin.yy",},
