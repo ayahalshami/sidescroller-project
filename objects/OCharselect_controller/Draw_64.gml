@@ -1,3 +1,6 @@
+global.paused = false;
+
+
 draw_set_font(TitleFont); 
 
 var text = "Select Character";
