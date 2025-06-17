@@ -62,6 +62,9 @@ if (keyboard_check(ord("K")) && firingdelay < 0 && onGround) {
     HandleAttack();
 }
 
+start_x = x;
+start_y = y;
+
 // Death on water
 if (place_meeting(x, y, oDeathBlock)) {
     if (lives > 0) {
