@@ -10,6 +10,7 @@
     {"name":"inst_2C6C1E03","path":"rooms/rm_charselect/rm_charselect.yy",},
     {"name":"inst_3305BFD3","path":"rooms/rm_charselect/rm_charselect.yy",},
     {"name":"inst_5D212611","path":"rooms/rm_charselect/rm_charselect.yy",},
+    {"name":"inst_D14F06D","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
