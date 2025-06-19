@@ -29,7 +29,7 @@ ds_list_add(waves,[3,oSlimeEnemy,0,30]);
 ds_list_add(waves,[3,oSlimeEnemy,1,40]);
 ds_list_add(waves,[3,oSlimeEnemy,0,50]);
 
-spawn[0,0] = 27519;
-spawn[0,1] = 1223;
-spawn[1,0] = 1768;
-spawn[1,1] = 1023;
+spawn[0,0] = 397;
+spawn[0,1] = 1088;
+spawn[1,0] = 181;
+spawn[1,1] = 181;

@@ -50,6 +50,7 @@
     {"name":"oSpawner","order":5,"path":"objects/oSpawner/oSpawner.yy",},
     {"name":"oSwordAttack","order":1,"path":"objects/oSwordAttack/oSwordAttack.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
+    {"name":"final_room","order":3,"path":"rooms/final_room/final_room.yy",},
     {"name":"rm_charselect","order":2,"path":"rooms/rm_charselect/rm_charselect.yy",},
     {"name":"rm_game","order":1,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"RoomUI","order":6,"path":"roomui/RoomUI/RoomUI.yy",},
