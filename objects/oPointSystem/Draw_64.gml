@@ -24,7 +24,7 @@ var coin_w = sprite_get_width(sCoin) * scale;
 var frame = is_animating ? floor(anim_index) : 0;
 
 // draws sprite
-draw_sprite_ext(sCoin, frame, icon_x + 10, icon_y - 25, scale, scale, 0, c_white, 1);
+draw_sprite_ext(sCoin, frame, icon_x + 30, icon_y - 25, scale, scale, 0, c_white, 1);
 
 // put score text next to coin ui
 draw_set_font(ButtonFont);
