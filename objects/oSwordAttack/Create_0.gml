@@ -1,1 +1,1 @@
-alarm[0] = 10; // exists for 10 frames
+alarm[0] = 20; // exists for 20 frames

@@ -75,3 +75,19 @@ if (hp <= 0) {
     instance_create_layer(x, y, layer, defeated_object);
     instance_destroy();
 }
+
+function HandleDamage() {
+    // damage check with invincibility system
+    if (!invincible) {
+        var enemy = instance_place(x, y, oParentEnemy);
+        if (enemy != noone) {
+            lives -= 1;
+            invincible = true;
+            invincible_timer = 120; // 2 second invincibility
+            // knockback
+            var dir = (x < enemy.x) ? -1 : 1;
+            hsp = dir * -4;
+            vsp = -4;
+        }
+    }
+}

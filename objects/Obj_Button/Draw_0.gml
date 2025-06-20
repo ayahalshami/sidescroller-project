@@ -2,16 +2,6 @@
 var bx = x;
 var by = y;
 
-// Check if mouse is hovering over the button
-var hovered = point_in_rectangle(mouse_x, mouse_y, bx, by, bx + btn_width, by + btn_height);
-
-// Set color based on hover
-if (hovered) {
-    draw_set_color(btn_color_hover);
-} else {
-    draw_set_color(btn_color_default);
-}
-
 
 var gold = make_color_rgb(153, 90, 7); // custom color for text shadow
 

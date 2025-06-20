@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Sprite51",
+  "%Name":"sCoin",
   "bboxMode":0,
   "bbox_bottom":9,
   "bbox_left":0,
@@ -24,19 +24,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"b47cab29-c5d3-4574-b50b-13f90611eefd","blendMode":0,"displayName":"default","isLocked":false,"name":"b47cab29-c5d3-4574-b50b-13f90611eefd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sprite51",
+  "name":"sCoin",
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"collectables",
-    "path":"folders/objects/collectables.yy",
+    "name":"ui",
+    "path":"folders/assets/ui.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Sprite51",
+    "%Name":"sCoin",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sprite51",
+    "name":"sCoin",
     "playback":1,
     "playbackSpeed":5.0,
     "playbackSpeedType":0,
@@ -74,16 +74,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"33f5569b-c812-45af-9101-04068cdb3af8","path":"sprites/Sprite51/Sprite51.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"33f5569b-c812-45af-9101-04068cdb3af8","path":"sprites/sCoin/sCoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5fbcd074-ad85-4590-af33-309372367b17","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"991e0d97-2717-443b-a7b7-a883147f4cd6","path":"sprites/Sprite51/Sprite51.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"991e0d97-2717-443b-a7b7-a883147f4cd6","path":"sprites/sCoin/sCoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a466b04f-2f40-48c1-93c0-c71ba80d1ec9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e108fb40-2ab6-47c8-8717-9de8eec7d6a9","path":"sprites/Sprite51/Sprite51.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e108fb40-2ab6-47c8-8717-9de8eec7d6a9","path":"sprites/sCoin/sCoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0e8bbb3f-ce1a-469d-baf3-6a3703adbfbe","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd16ef89-05a7-4bd5-b5cf-22b022beeaf9","path":"sprites/Sprite51/Sprite51.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd16ef89-05a7-4bd5-b5cf-22b022beeaf9","path":"sprites/sCoin/sCoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d0da6ebd-e1e7-4441-9aee-392f88a49b68","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
