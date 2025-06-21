@@ -7,8 +7,8 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_2DAA7569","path":"rooms/rm_StartScreen/rm_StartScreen.yy",},
-    {"name":"inst_D14F06D","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_A3A25B7","path":"rooms/rm_StartScreen/rm_StartScreen.yy",},
+    {"name":"inst_D14F06D","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
