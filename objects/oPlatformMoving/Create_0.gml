@@ -1,5 +1,5 @@
 platformSpeed = 1;
-currentSpeed = 1;
+currentSpeed = 0;
 hsp = 0;
 vsp = 0;
 
