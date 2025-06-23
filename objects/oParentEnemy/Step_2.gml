@@ -1,5 +1,3 @@
-event_inherited();
-
 var _wall_found = check_collision(vel_x * 4, 0);
 // Look a few pixels ahead in the direction to check for a wall
 if (_wall_found)
@@ -7,7 +5,9 @@ if (_wall_found)
     vel_x = -vel_x; // changes direction if enemy hits a wall
 }
 
-var _ground_ahead = check_collision(sign(vel_x) * 8, 4);
+var _offset = (sprite_width + 2) * sign(vel_x); 
+var _ground_ahead = check_collision(_offset, 4);
+
 // Looks ahead and slightly downward to check if enemy is on ground
 
 if (!_ground_ahead)

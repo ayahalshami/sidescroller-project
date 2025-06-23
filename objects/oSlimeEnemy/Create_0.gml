@@ -5,4 +5,4 @@ defeated_object = oSlimeDefeated;
 
 // special behavior for enemy: will walk at player when detected
 
-patrol_range = 64;  
+patrol_range = 48;  

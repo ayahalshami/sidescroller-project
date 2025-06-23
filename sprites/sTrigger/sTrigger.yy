@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"assets",
-    "path":"folders/assets.yy",
+    "name":"sidescroller-project",
+    "path":"sidescroller-project.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

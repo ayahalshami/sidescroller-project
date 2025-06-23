@@ -14,7 +14,7 @@ if (!variable_global_exists("score")) {
 // sets positioning of coin ui to top right
 
 var screen_w = display_get_gui_width(); // width of gui (not room width) for proper display
-var icon_x = screen_w - 128;
+var icon_x = screen_w - 145;
 var icon_y = 32;
 var scale = 4;  // scale up coin size on ui to look nice 
 var spacing = 8;
@@ -24,7 +24,7 @@ var coin_w = sprite_get_width(sCoin) * scale;
 var frame = is_animating ? floor(anim_index) : 0;
 
 // draws sprite
-draw_sprite_ext(sCoin, frame, icon_x + 30, icon_y - 25, scale, scale, 0, c_white, 1);
+draw_sprite_ext(sCoin, frame, icon_x - 35, icon_y - 80, scale, scale, 0, c_white, 1);
 
 // put score text next to coin ui
 draw_set_font(ButtonFont);

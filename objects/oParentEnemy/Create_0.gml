@@ -1,4 +1,3 @@
-event_inherited();
 
 // movement speed and damage (enemy does one heart of damage by default)
 
@@ -14,8 +13,8 @@ hp = 2;
 // makes enemy move back and forth
 vel_x = choose(-move_speed, move_speed);
 
-start_x = x;             // Mark spawn point
-patrol_range = 64;       // Enemy will move 64 pixels left and right
+start_x = x;             // mark spawn point
+patrol_range = 64;       // enemy will move 64 pixels left and right
 
 
 friction_power = 0;

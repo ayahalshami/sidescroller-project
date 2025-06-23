@@ -2,7 +2,7 @@ if (global.paused) exit;
 
 event_inherited();
 defeated_object = oShootingEnemyDefeated; 
-patrol_range = 150; 
+patrol_range = 64; 
 // shooting timer
 if (!variable_instance_exists(id, "shoot_timer")) {
     shoot_timer = 0;

@@ -65,6 +65,21 @@ if (keyboard_check(ord("K")) && firingdelay < 0 && onGround) {
 start_x = x;
 start_y = y;
 
+// Handle invincibility timer
+if (invincible) {
+    invincible_timer--;
+    if (invincible_timer <= 0) {
+        invincible = false;
+    }
+}
+
+if (invincible && (invincible_timer div 5) mod 2 == 0) {
+    image_alpha = 0.5;
+} else {
+    image_alpha = 1;
+}
+
+
 // Death on water
 if (place_meeting(x, y, oDeathBlock)) {
     if (lives > 0) {
@@ -74,21 +89,22 @@ if (place_meeting(x, y, oDeathBlock)) {
     }
 }
 
-// Invincibility countdown
-if (invincible) {
-    invincible_timer -= 1;
-    if (invincible_timer <= 0) {
-        invincible = false;
-    }
-}
-
 // Handle movement animations - child objects will override this
 HandleMovementAnimation();
 
 // Handle damage - child objects can override for different damage systems
 HandleDamage();
 
-// If lives hit 0, respawn at last checkpoint
+var death_zone_y = 1800; // Set slightly below your lowest normal Y position
+
+// kill switch for if player falls out of bounds
+
+var death_zone_y = 1900; // this is further than the lowest a player would prob go
+if (y > death_zone_y) {
+    lives = 0;
+}
+	
+// if lives hit 0, respawn at last checkpoint
 if (lives <= 0) {
     // Move to last saved checkpoint
     x = respawn_x;
@@ -97,3 +113,4 @@ if (lives <= 0) {
     // Refill hearts
     lives = max_lives;
 }
+
