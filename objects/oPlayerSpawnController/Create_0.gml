@@ -1,6 +1,6 @@
 // positions character at start of game
-var spawn_x = 224;
-var spawn_y = 608;
+var spawn_x = 10656;
+var spawn_y = 2144;
 
 
 // spawn selected character
