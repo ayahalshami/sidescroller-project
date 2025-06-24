@@ -1,5 +1,7 @@
 Blade and Scroll – User Manual
+
 Overview
+
 Blade and Scroll is a 2D side-scrolling action game where players choose between two unique heroes—a Warrior or a Mage—to battle enemies, collect coins, and progress through three distinct zones. Each character offers a different playstyle, providing replay value and variety.
 
 Character Selection
