@@ -10,8 +10,8 @@
   "name":"oPointSystem",
   "overriddenProperties":[],
   "parent":{
-    "name":"ui",
-    "path":"folders/objects/ui.yy",
+    "name":"drawgui",
+    "path":"folders/objects/ui/drawgui.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -5,7 +5,6 @@ draw_set_font(TitleFont);
 
 var text = "Select Character";
 var text_width = string_width(text);
-var text_x = (display_get_gui_width() - text_width) / 2;
 var gold = make_color_rgb(153, 90, 7); // custom color for bg of text
 
 // sets glow/filter on top to make title look nicer/more professional

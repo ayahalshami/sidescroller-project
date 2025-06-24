@@ -1,3 +1,4 @@
+if (!global.fading) {
 // this needs to be under drawgui and not just a draw event in order to display in proper room
 // otherwise it will show in every room
 // if character not present then exist
@@ -32,3 +33,4 @@ draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_text(icon_x + coin_w + spacing, icon_y, "x" + string(global.score));
+}

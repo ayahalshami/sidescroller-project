@@ -1,4 +1,5 @@
-var heart_spacing = 40; 
+if (!global.fading) {
+	var heart_spacing = 57; 
 var start_x = 20;
 var y_pos = 20;
 for (var i = 0; i < 3; i++) {
@@ -7,4 +8,5 @@ for (var i = 0; i < 3; i++) {
     } else {
         draw_sprite(sblackheart, 0, start_x + i * heart_spacing, y_pos);
     }
+}
 }

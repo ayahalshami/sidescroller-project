@@ -2,6 +2,7 @@ hsp = 0;
 vsp = 0;
 grv = 0.3;
 walkspd = 4;
+global.fading = false; // for ui fade out
 
 // Attack system
 firingdelay = 0;
@@ -9,6 +10,8 @@ firingdelay = 0;
 // Respawn system
 start_x = pointer_null;
 start_y = pointer_null;
+global.respawn_x = x;
+global.respawn_y = y;
 
 // Life system
 lives = 3;

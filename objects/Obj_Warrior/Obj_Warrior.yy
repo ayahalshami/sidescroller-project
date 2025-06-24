@@ -10,8 +10,8 @@
   "name":"Obj_Warrior",
   "overriddenProperties":[],
   "parent":{
-    "name":"ui",
-    "path":"folders/objects/ui.yy",
+    "name":"buttons",
+    "path":"folders/objects/ui/buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

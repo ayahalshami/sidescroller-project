@@ -52,3 +52,10 @@ if (hp <= 0) {
     instance_create_layer(x, y, layer, defeated_object);
     instance_destroy();
 }
+
+// flip sprite based on direction
+if (vel_x < 0) {
+    image_xscale = -1;
+} else if (vel_x > 0) {
+    image_xscale = 1;
+}

@@ -95,21 +95,16 @@ HandleMovementAnimation();
 // Handle damage - child objects can override for different damage systems
 HandleDamage();
 
-var death_zone_y = 1800; // Set slightly below your lowest normal Y position
-
 // kill switch for if player falls out of bounds
 
-var death_zone_y = 1900; // this is further than the lowest a player would prob go
+var death_zone_y = 3000; // this is further than the lowest a player would prob go
 if (y > death_zone_y) {
     lives = 0;
 }
 	
-// if lives hit 0, respawn at last checkpoint
 if (lives <= 0) {
-    // Move to last saved checkpoint
-    x = respawn_x;
-    y = respawn_y;
-
+    x = global.respawn_x; 
+    y = global.respawn_y; 
     // Refill hearts
     lives = max_lives;
 }

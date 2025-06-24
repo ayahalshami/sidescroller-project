@@ -16,7 +16,6 @@ var text_x = bx + btn_width / 2 - text_width / 2;
 var text_y = by + btn_height / 2 - text_height / 2;
 
 // shadow of text
-var gold = make_color_rgb(153, 90, 7);
 draw_set_color(gold);
 draw_text(text_x + 2, text_y + 2, button_text); // offset shadow slightly
 
