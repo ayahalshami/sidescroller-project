@@ -194,9 +194,9 @@
     {"roomId":{"name":"rm_StartScreen","path":"rooms/rm_StartScreen/rm_StartScreen.yy",},},
     {"roomId":{"name":"rm_charselect","path":"rooms/rm_charselect/rm_charselect.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
-    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"final_room","path":"rooms/final_room/final_room.yy",},},
     {"roomId":{"name":"rm_endscreen","path":"rooms/rm_endscreen/rm_endscreen.yy",},},
+    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

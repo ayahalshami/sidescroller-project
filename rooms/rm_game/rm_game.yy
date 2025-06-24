@@ -2306,6 +2306,7 @@
     {"name":"inst_7935AB74","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_66FA4DB0","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_6D30DEFA","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_9ED9F80","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -4634,6 +4635,7 @@
         {"$GMRInstance":"v2","%Name":"inst_7935AB74","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7935AB74","objectId":{"name":"oShootingEnemy","path":"objects/oShootingEnemy/oShootingEnemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":22784.0,"y":1440.0,},
         {"$GMRInstance":"v2","%Name":"inst_66FA4DB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66FA4DB0","objectId":{"name":"oSlimeEnemy","path":"objects/oSlimeEnemy/oSlimeEnemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":26368.0,"y":1824.0,},
         {"$GMRInstance":"v2","%Name":"inst_6D30DEFA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D30DEFA","objectId":{"name":"oShootingEnemy","path":"objects/oShootingEnemy/oShootingEnemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":27488.0,"y":960.0,},
+        {"$GMRInstance":"v2","%Name":"inst_9ED9F80","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9ED9F80","objectId":{"name":"oShootingEnemy","path":"objects/oShootingEnemy/oShootingEnemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":576.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"tile_lava_fore","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tile_lava_fore","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":188,"SerialiseWidth":1563,"TileCompressedData":[
           -19573,-2147483648,1,10,-122,11,1,12,-1439,-2147483648,1,20,-122,21,1,22,-1439,-2147483648,1,20,-122,
